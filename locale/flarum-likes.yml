@@ -9,29 +9,29 @@ flarum-likes:
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
-      like_posts_label: Vind berichten leuk
+      like_posts_label: Like indlæg
 
   # Strings in this namespace are used by the forum user interface.
   forum:
 
     # These strings are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      post_liked_text: "{username} vindt je bericht leuk|{username} vinden je bericht leuk"  # Can be pluralized to agree with the number of users!
+      post_liked_text: "{username} synes godt om dit indlæg|{username} synes godt om dit indlæg"  # Can be pluralized to agree with the number of users!
       others_text: => core.ref.some_others
 
     # These strings are displayed beneath individual posts.
     post:
-      like_link: Leuk
-      liked_by_text: "{users} vindt dit leuk.|{users} vinden dit leuk."
-      liked_by_self_text: "{users} vindt dit leuk.|{users} vinden dit leuk."  # Can be pluralized to agree with the number of users!
+      like_link: Like
+      liked_by_text: "{users} synes godt om.|{users} synes godt om."
+      liked_by_self_text: "{users} synes godt om dette. |{users} synes godt om dette."  # Can be pluralized to agree with the number of users!
       others_link: => core.ref.some_others
-      unlike_link: Niet leuk
+      unlike_link: Fjern synes godt om
       you_text: => core.ref.you
 
     # These strings are used by the Users Who Like This modal dialog.
     post_likes:
-      title: Gebruikers die dit leuk vinden
+      title: Brugere, der kan synes godt om dette
 
     # These strings are used in the Settings page.
     settings:
-      notify_post_liked_label: Iemand vindt een van mijn berichten leuk
+      notify_post_liked_label: Underret mig når nogen synes godt om mine indlæg

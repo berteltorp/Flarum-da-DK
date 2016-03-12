@@ -13,11 +13,11 @@ flarum-tags:
 
     # These strings are used in the Edit Tag modal dialog.
     edit_tag:
-      color_label: Kleur
-      description_label: Beschrijving
-      delete_tag_button: Verwijder label
-      delete_tag_confirmation: Weet je zeker dat je dit label wilt verwijderen? De bijbehorende discussie zal NIET worden verwijdert.
-      hide_label: Verbergen voor alle discussies
+      color_label: Farver
+      description_label: Beskrivelse
+      delete_tag_button: Fjern label
+      delete_tag_confirmation: Er du sikker på at du vil fjerne dette tag? De tilhørende diskussioner vil IKKE blive fjernet.
+      hide_label: Skjul alle diskussioner
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: Link
@@ -27,67 +27,67 @@ flarum-tags:
     # These strings are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Beheer de lijst met beschikbare labels om je discussies mee te organiseren.
+      tags_text: Administrer listen over tilgængelige labels til at organisere dine diskussioner med.
 
     # These strings are used in the Permissions page of the admin interface.
     permissions:
-      restrict_by_tag_heading: Beperken per label
-      tag_discussions_label: Label discussies
+      restrict_by_tag_heading: Afgræns til label
+      tag_discussions_label: Diskussioner med label 
 
     # These strings are used in the Tag Settings modal dialog.
     tag_settings:
-      range_separator_text: " tot "
-      required_primary_heading: Vereist aantal primaire labels
-      required_primary_text: Kies het minimale en maximale aantal van primaire labels die aan discussie toegevoegd mogen worden.
-      required_secondary_heading: Vereist aantal secundaire labels
-      required_secondary_text: Kies het minimale en maximale aantal van secundaire labels die aan discussie toegevoegd mogen worden.
-      title: Label instellingen
+      range_separator_text: " til "
+      required_primary_heading: Nødvendigt antal af primære labels
+      required_primary_text: Vælg det mindste og højeste antal primære labels der kan sættes på en diskussion.
+      required_secondary_heading: Nødvendigt antal sekundære labels
+      required_secondary_text: Vælg det mindste og højeste antal primære labels der kan sættes på en diskussion.
+      title: Label indstillinger
 
     # These strings are used in the Tags page.
     tags:
-      about_tags_text: Labels worden gebruikt voor het indelen van discussies. Primaire labels lijken op traditionele forum categorieën: ze kunnen worden gerangschikt op een twee-lagen hierarchie. Secondaire labels hebben geen hierarchie of volgorde en zijn erg handig voor micro-categorisatie.
+      about_tags_text: Labels bruges til at klassificere diskussioner. Primære labels ligne traditionelle kategorier: de kan være anbragt i et to-delt hierarki. Sekundære labels har hverken hierarki eller rækkefølge og er meget velegnet til mikro-kategorisering.
       create_tag_button: => flarum-tags.ref.create_tag
-      primary_heading: Primaire labels
-      secondary_heading: Secundaire labels
-      settings_button: Instellingen
+      primary_heading: Primære labels
+      secondary_heading: Sekundære labels
+      settings_button: Indstillinger
 
   # Strings in this namespace are used by the forum user interface.
   forum:
 
     # These strings are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Kies een primaire label|Kies {count} primaire labels"
-      choose_secondary_placeholder: "Kies nog 1 extra label|Kies nog {count} extra labels"
-      edit_title: "Labels bewerken voor {title}"
+      choose_primary_placeholder: "Vælg en primært label|Vælg {count} primære labels"
+      choose_secondary_placeholder: "Vælg en sekundær label|Vælg {count} sekundære labels"
+      edit_title: "Vælg labels til {title}"
       submit_button: => core.ref.okay
-      title: Kies labels voor je discussie
+      title: Vælg labels til din diskussion
 
     # These strings are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Kies labels
+      choose_tags_link: Vælg labels
 
     # These strings are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Bewerk labels
+      edit_tags_button: Rediger labels
 
     # These strings are used on the index page, peripheral to the discussion list.
     index:
       tags_link: => flarum-tags.ref.tags
-      more_link: Meer...
-      untagged_link: Ongelabeld
+      more_link: Flere...
+      untagged_link: Umærkede
 
     # These strings are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} heeft de {tagsAdded} toegevoegd."
-      added_and_removed_tags_text: "{username} heeft de {tagsAdded} toegevoegd en de {tagsRemoved} verwijderd."
-      removed_tags_text: "{username} heeft de {tagsRemoved} verwijderd."
+      added_tags_text: "{username} har tilføjet {tagsAdded}."
+      added_and_removed_tags_text: "{username} har tilføjet {tagsAdded} og fjernet {tagsRemoved}."
+      removed_tags_text: "{username} har fjernet {tagsRemoved}."
       tags_text: "{tags} label|{tags} labels"
 
   # Strings in this namespace are used by the forum and admin interfaces.
   lib:
 
     # This string is displayed in place of the name of a tag that's been deleted.
-    deleted_tag_text: Verwijderd
+    deleted_tag_text: slettet
 
   ##
   # REUSED STRINGS - These keys should not be used directly in code!
@@ -95,6 +95,6 @@ flarum-tags:
 
   # Strings in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: Maak label
-    name: Naam
+    create_tag: Opret label
+    name: Navn
     tags: Labels

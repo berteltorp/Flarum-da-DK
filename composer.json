@@ -1,21 +1,21 @@
 {
-    "name": "rodymol123/dutch",
+    "name": "berteltorp/danish",
     "type": "flarum-extension",
-    "description": "Dutch language pack.",
-    "homepage": "https://github.com/rodymol123/Flarum-nl-NL",
+    "description": "Danish language pack.",
+    "homepage": "https://github.com/berteltorp/Flarum-da-DK",
     "keywords": ["locale"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Rody Molenaar",
-            "email": "rody.molenaar@xtrada.nl",
-            "homepage": "http://www.rodymol123.eu/"
+            "name": "Bertel Torp",
+            "email": "bertel@bertel.dk",
+            "homepage": "https://bertel.dk/"
         }
     ],
     "support": {
-        "issues": "https://github.com/rodymol123/Flarum-nl-NL/issues",
-        "source": "https://github.com/rodymol123/Flarum-nl-NL",
-        "forum": "https://discuss.flarum.org/d/758-dutch-language-pack"
+        "issues": "https://github.com/berteltorp/Flarum-da-DK/issues",
+        "source": "https://github.com/berteltorp/Flarum-da-DK",
+        "forum": "https://discuss.flarum.org/"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.4"
@@ -32,7 +32,7 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "Dutch",
+            "title": "Danish",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#fff",
@@ -41,8 +41,8 @@
             }
         },
         "flarum-locale": {
-            "code": "nl",
-            "title": "Nederlands"
+            "code": "da",
+            "title": "Dansk"
         }
     }
 }
