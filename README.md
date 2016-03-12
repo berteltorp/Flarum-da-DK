@@ -24,10 +24,11 @@ This language pack is compatible with:
       - [Moment.js](https://github.com/moment/moment) [2.10.6](https://github.com/moment/moment/releases/tag/2.10.6)
 
 ## Installation
+Composer installation is *strongly encouraged* as once beta 5 is released manual installation will no longer work.
 
 ### Using Composer
 
-Flarum uses Composer to manage its dependencies and extensions. The Dutch language pack, available [on Packagist](https://packagist.org/packages/berteltorp/danish), is also manageable with Composer. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
+Flarum uses Composer to manage its dependencies and extensions. The Danish language pack, available [on Packagist](https://packagist.org/packages/berteltorp/danish), is also manageable with Composer. Make sure that [Composer](https://getcomposer.org/) is installed on your machine, then run the following command in the location where Flarum is installed:
 
 ```
 composer require berteltorp/danish
