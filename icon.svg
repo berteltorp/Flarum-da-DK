@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="900" height="600">
-  <rect fill="#21468B" width="900" height="600"/>
-  <rect fill="#FFF" width="900" height="400"/>
-  <rect fill="#AE1C28" width="900" height="200"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="370" height="280">
+<rect width="370" height="280" fill="#c60c30"/>
+<rect width="40" height="280" x="120" fill="#fff"/>
+<rect width="370" height="40" y="120" fill="#fff"/>
 </svg>
