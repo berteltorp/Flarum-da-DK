@@ -1,47 +1,45 @@
-// Custom Dutch Moment.js Locale File
-// Based on https://github.com/moment/moment/blob/develop/locale/nl.js
+// Custom Danish Moment.js Locale File
+// Based on https://github.com/moment/moment/blob/develop/locale/da.js - and props to Ulrik Nielsen (https://github.com/mrbase) for that :)
 
-moment.locale('nl', {
-  months : 'januari_februari_maart_april_mei_juni_juli_augustus_september_oktober_november_december'.split('_'),
-  monthsShort : 'jan._feb._mar._apr._mei_jun._jul._aug._sep._okt._nov._dec.'.split('_'),
-  weekdays : 'zondag_maandag_dinsdag_woensdag_donderdag_vrijdag_zaterdag'.split('_'),
-  weekdaysShort : 'zo._ma._di._wo._do._vr._za.'.split('_'),
-  weekdaysMin : 'Zo_Ma_Di_Wo_Do_Vr_Za'.split('_'),
+moment.locale('da', {
+  months : 'januar_februar_marts_april_maj_juni_juli_august_september_oktober_november_december'.split('_'),
+  monthsShort : 'jan_feb_mar_apr_maj_jun_jul_aug_sep_okt_nov_dec'.split('_'),
+  weekdays : 'søndag_mandag_tirsdag_onsdag_torsdag_fredag_lørdag'.split('_'),
+  weekdaysShort : 'søn_man_tir_ons_tor_fre_lør'.split('_'),
+  weekdaysMin : 'sø_ma_ti_on_to_fr_lø'.split('_'),
   longDateFormat : {
     LT : 'HH:mm',
     LTS : 'HH:mm:ss',
-    L : 'DD-MM-YYYY',
-    LL : 'D MMMM YYYY',
-    LLL : 'D MMMM YYYY HH:mm',
-    LLLL : 'dddd D MMMM YYYY HH:mm'
+    L : 'DD/MM/YYYY',
+    LL : 'D. MMMM YYYY',
+    LLL : 'D. MMMM YYYY HH:mm',
+    LLLL : 'dddd [d.] D. MMMM YYYY HH:mm'
   },
   calendar : {
-    sameDay: '[Vandaag om] LT',
-    nextDay: '[Morgen om] LT',
-    nextWeek: 'dddd [om] LT',
-    lastDay: '[Gisteren om] LT',
-    lastWeek: 'dddd [om] LT',
+    sameDay: '[I dag kl.] LT',
+    nextDay: '[I morgen kl.] LT',
+    nextWeek: 'dddd [kl.] LT',
+    lastDay: '[I går kl.] LT',
+    lastWeek: '[sidste] dddd [kl] LT',
     sameElse: 'L'
   },
   relativeTime : {
-    future : 'over %s',
-    past : '%s geleden',
-    s : 'een paar seconden',
-    m : 'één minuut',
-    mm : '%d minuten',
-    h : 'één uur',
-    hh : '%d uur',
-    d : 'één dag',
-    dd : '%d dagen',
-    M : 'één maand',
-    MM : '%d maanden',
-    y : 'één jaar',
-    yy : '%d jaar'
+    future : 'om %s',
+    past : '%s siden',
+    s : 'få sekunder',
+    m : 'et minut',
+    mm : '%d minutter',
+    h : 'en time',
+    hh : '%d timer',
+    d : 'en dag',
+    dd : '%d dage',
+    M : 'en måned',
+    MM : '%d måneder',
+    y : 'et år',
+    yy : '%d år'
   },
-  ordinalParse: /\d{1,2}(ste|de)/,
-  ordinal : function (number) {
-    return number + ((number === 1 || number === 8 || number >= 20) ? 'ste' : 'de');
-  },
+  ordinalParse: /\d{1,2}\./,
+  ordinal : '%d.',
   week : {
     dow : 1, // Monday is the first day of the week.
     doy : 4  // The week that contains Jan 4th is the first week of the year.
