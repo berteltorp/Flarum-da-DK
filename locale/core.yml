@@ -169,7 +169,7 @@ core:
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Log ind for at kommentere
       rename_button: Omdøbning
-      rename_text: Indtast en ny titel for denne diskussion:
+      rename_text: Indtast en ny titel for denne diskussion
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
