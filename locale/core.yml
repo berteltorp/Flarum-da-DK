@@ -9,10 +9,10 @@ core:
 
     # These strings are used in the Appearance page.
     appearance:
-      colored_header_label: Header faver
+      colored_header_label: Header farver
       colors_heading: Farver
       colors_text: Vælg to farver for at style dit forum. Det første vil blive anvendt som highlight-farve, mens den anden anvendes til baggrundselementer.
-      custom_styles_heading: Egne styleing
+      custom_styles_heading: Egne styles
       custom_styles_text: Tilpas dit forums udseende ved at overskrive Flarums standard styling med din egen LESS/CSS kode.
       dark_mode_label: Mørkere stil
       edit_css_button: Rediger egen CSS
@@ -45,14 +45,14 @@ core:
 
     # These strings are used in the Edit Group modal dialog.
     edit_group:
-      color_label: Fave
+      color_label: Farve
       delete_button: Slet gruppe
       delete_confirmation: Er du sikker på at du vil slette denne gruppe? Gruppens medlemmer slettes ikke.
       icon_label: Ikon
       icon_text: "Vælg en <a>FontAwesome</a> ikon-class, <em>uden</em> det angivede <code>fa-</code> prefix."
       name_label: Navn
-      plural_placeholder: Plural (f.eks. Redaktører)
-      singular_placeholder: Singular (f.eks. Redaktør)
+      plural_placeholder: Flertal (f.eks. Redaktører)
+      singular_placeholder: Ental (f.eks. Redaktør)
       submit_button: => core.ref.save_changes
       title: Opret gruppe
 
@@ -70,7 +70,7 @@ core:
 
     # This string is used in the modal dialog displayed when loading extensions.
     loading:
-      title: Vent venligst ...
+      title: Vent venligst...
 
     # These strings are used in the navigation bar.
     nav:
@@ -81,7 +81,7 @@ core:
       dashboard_button: Dashboard
       dashboard_text: Oversigt for dit forum
       extensions_button: Udvidelser
-      extensions_text: Tilføj yderligere funktionalitet til forummet for virkelig at gøre det til jeres.
+      extensions_text: Tilføj yderligere funktionalitet til forummet for at personalisere det.
       permissions_button: Tilladelser
       permissions_text: Indstil hvem der kan se og gøre hvad.
 
@@ -96,7 +96,7 @@ core:
       edit_and_delete_posts_label: Rediger og slet indlæg
       global_heading: Global
       moderate_heading: Moderation
-      new_group_button: Ny gruppep
+      new_group_button: Ny gruppe
       participate_heading: Deltag
       read_heading: Læse
       rename_discussions_label: Omdøb debattråde
@@ -129,7 +129,7 @@ core:
     # These strings are used in the Change Password modal dialog.
     change_password:
       send_button: Send e-mail
-      text: klik på knappen nedenfor og følg linket der sendes til din email, til at ændre din adgangskode.
+      text: Klik på knappen nedenfor og følg linket der sendes til din email, for at ændre din adgangskode.
       title: => core.ref.change_password
 
     # These strings are used by the composer controls.
@@ -195,7 +195,7 @@ core:
       email_sent_message: Vi har sendt en e-mail med et link til at nulstille din adgangskode. Hvis du ikke har modtaget en e-mail bedes du tjekke din spam-mappe.
       submit_button: Nulstil adgangskode
       text: Indtast din e-mailadresse og vi sender dig en e-mail med et link til at nulstille din adgangskode
-      title: Har du glemt din adgangskode
+      title: Har du glemt din adgangskode?
 
     # These strings are used in the header and session dropdown menu.
     header:
@@ -229,7 +229,7 @@ core:
       forgot_password_link: Glemt adgangskode?
       invalid_login_message: Ugyldigee loginoplysninger.
       password_placeholder: => core.ref.password
-      sign_up_text: "Endnu ikke nogen konto? <a>Registrer dig</a>"
+      sign_up_text: "Endnu ikke nogen konto? <a>Registrér dig</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
       username_or_email_placeholder: Brugernavn eller email
